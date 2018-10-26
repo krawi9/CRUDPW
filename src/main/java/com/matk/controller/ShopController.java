@@ -54,7 +54,7 @@ public class ShopController {
 		return "redirect:/shop/list";
 	}
 	
-	@PostMapping("/searchh")
+	@PostMapping("/search")
     public String searchShops(@RequestParam("theSearchName") String theSearchName,
                                     Model theModel) {
 

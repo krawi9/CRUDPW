@@ -6,7 +6,8 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/.settings"/>
-        <property name="context-root" value="crudapp"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main"/>
         <property name="java-output-path" value="/crudapp/target/classes"/>
+        <property name="context-root" value="crudappp"/>
     </wb-module>
 </project-modules>
